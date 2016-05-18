@@ -3,7 +3,7 @@
 
   "name": "Deadlockers",
   "description": "Allows you to save your time by automatically bypassing adf.ly, adfoc.us, bc.vc, ilix.in, linkbucks.com and 100+ shortners!",
-  "version": "3.0",
+  "version": "5.0",
   "options_page": "options.html",
 
   "browser_action": {
