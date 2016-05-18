@@ -1,0 +1,139 @@
+* {
+margin: 0;
+padding: 0;
+list-style: none;
+outline: 0;
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Condensed Regular'), local('RobotoCondensed-Regular'), url(font1.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Condensed Regular'), local('RobotoCondensed-Regular'), url(font2.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Condensed Regular'), local('RobotoCondensed-Regular'), url(font3.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+body {
+width: 400px;
+font-family: 'Roboto Condensed';
+}
+
+form#ajaxDead {
+padding: 30px 0;
+text-align: center;
+border-bottom: 3px solid #eee;
+}
+
+input[type="url"] {
+padding: 5px;
+font-size: 15px;
+}
+
+input[type="submit"] {
+background: green;
+color: white;
+padding: 5px 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.32);
+border: 2px solid #eee;
+font-size: 15px;
+cursor: pointer;
+}
+
+input[type="submit"]:active {
+box-shadow: 0 0 5px rgba(0, 0, 0, .32);
+}
+
+header img {
+width: 270px;
+margin: 10px auto;
+display: block;
+}
+
+header {
+border-bottom: 3px solid #eee;
+}
+
+div#adsense {
+text-align: center;
+margin: 20px auto;
+}
+
+footer li a {
+text-decoration: none;
+color: black;
+border-bottom: 1px solid #eee;
+display: block;
+}
+
+footer li:nth-child(1) {
+margin-top: 10px;
+}
+
+footer li {
+margin-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+list-style: square;
+}
+
+div#ads {
+margin-top: 15px;
+background: #eee;
+}
+
+#ajaxRes a {
+display: block;
+text-align: right;
+color: #B01919;
+text-decoration: none;
+padding-right: 5px;
+}
+
+div#message {
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+border-bottom: 3px solid #eee;
+margin-bottom: 12px;
+background: #F6F6F6;
+font-weight: bold;
+font-size: 20px;
+}
+
+#message input {
+color: red;
+border: 0;
+background: transparent;
+font-size: 16px;
+text-align: center;
+width: 100%;
+text-overflow: ellipsis;
+overflow: hidden;
+white-space: nowrap;
+display: block;
+}
+
+footer {
+float: none;
+width: 100%;
+border-bottom: 3px solid #eee;
+margin-top: 10px;
+font-size: 16px;
+padding-bottom: 15px;
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+	@font-face {font-family: "Open Sans";  font-style: normal;  font-weight: 400;  src: local("Open Sans"), local("OpenSans"), url("font4.woff2") format("woff2");  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;}
+
+		#popup {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			height: 100vh;
+		}
+		* {
+		outline: 0;
+		}
+		body {
+  background: rgba(255, 255, 255, 0.8);
+  margin: 0;
+  font-family: 'Open Sans';
+}
+		#bottom {
+			display: flex;
+			flex-direction: row;
+		}
+		div#inner {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 92px 20px rgba(0, 0, 0, 0.38);
+}
+		button#mainButton {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+}
+div#top {
+  padding: 30px 250px;
+}
+div#top img {
+  width: 380px;
+}
+		div#right, div#left {
+		  flex: 1;
+		  position: relative;
+		}
+div#left div {
+  text-align: center;
+  background-color: #B6B6B6;
+  padding: 5px 20px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  font-size: 16px;
+  max-width: 440px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+button#mainButton {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  background-color: rgb(137, 137, 137);
+  color: white;
+  border: 0;
+  font-size: 23px;
+  text-shadow: 1px 1px 1px black;
+  cursor: pointer;
+}
+	</style>
+</head>
+<body>
+	<div id="popup">
+		<div id="inner">
+			<div id="top">
+				<img src="logo.png">
+			</div>
+			<div id="bottom">
+				<div id="left">
+					<div id="oldURL"></div>
+					<div id="newURL"></div>
+					<div id="tTook"></div>
+				</div>
+				<div id="right">
+					<button id="mainButton">GO TO UNMASKED LINK</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--<script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>-->
+	<script src="popupX.js"></script>
+</body>
+</html>

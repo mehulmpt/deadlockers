@@ -1,0 +1,144 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Condensed Regular'), local('RobotoCondensed-Regular'), url(font1.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Condensed Regular'), local('RobotoCondensed-Regular'), url(font2.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Condensed Regular'), local('RobotoCondensed-Regular'), url(font3.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+body {
+font-family: 'Roboto Condensed';
+background: rgb(228, 228, 228);
+font-size: 16px;
+}
+
+#content > div > a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+}
+
+header {
+  text-align: center;
+  border-bottom: 10px solid #eee;
+  background: #C8C7C7;
+  height: 121px;
+  box-shadow: 0 0 10px rgb(95, 95, 95);
+}
+
+section#content {
+width: 800px;
+margin: 0 auto;
+position: relative;
+  z-index: 9999;
+border-left: 10px solid #eee;
+border-right: 10px solid #eee;
+background: white;
+}
+
+#content article div input {
+display: inline-block;
+margin-right: 10px;
+}
+
+#content article > div {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+div#contactform {
+position: relative;
+}
+
+div#contactform::before {
+content: "";
+display: block;
+bottom: 32px;
+right: 166px;
+width: 236px;
+height: 27px;
+background: white;
+position: absolute;
+}
+
+footer {
+border-top: 10px solid #eee;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+background: rgb(166, 219, 255);
+color: rgb(79, 79, 79);
+  box-shadow: 0 0 10px rgb(95, 95, 95);
+}
+
+#content article {
+border-bottom: 10px solid #eee;
+padding-left: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+#content article:last-child {
+border-bottom: 0;
+}
+
+div#updateBtn {
+background: url(updateBtn.png) no-repeat;
+cursor:pointer;
+background-size: 100% 100%;
+width: 91px;
+height: 36px;
+position: fixed;
+right: 10px;
+bottom: 0;
+}
+
+div#updated {
+background: rgb(255, 255, 255) url(http://www.clipartbest.com/cliparts/pT5/L46/pT5L46bTB.png) no-repeat center center;
+background-size: 30px;
+position: fixed;
+top: -100px;
+right: 45px;
+height: 50px;
+width: 45px;
+border: 2px solid rgb(193, 193, 193);
+border-top: 0;
+border-radius: 0 0 50% 50%;
+}
+
+h2 {
+font-size: 25px;
+}
+
+#content > div {
+text-align: center;
+font-size: 12px;
+color: #eee;
+background: black;
+}
+
+header img {
+  width: 440px;
+  margin-top: 4px;
+}
